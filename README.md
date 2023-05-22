@@ -1,7 +1,7 @@
 ```cpp
 RO: 
 
-Nota: Va rog sa va asigurati daca aveti Python runtime instalat pe dispozitiv inainte de a urma pasii de instalare.
+Nota: Va rog sa va asigurati ca aveti Python runtime instalat pe dispozitiv inainte de a urma pasii de instalare.
 Pentru a verifica acest lucru, in Terminal/Consola sistemului de operare folositi comanda Python. 
 Daca apare versiunea x.xx.xx, este instalat.
 Daca nu apare versiunea x.xx.xx, Descarcati si instalati utlima versiune de Python de pe pagina oficiala: https://www.python.org/downloads/
