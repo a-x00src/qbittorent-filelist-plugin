@@ -10,8 +10,8 @@ class filelist(object):
     # Settings ::::::::::::::::::::::::::::::::::::::::::::::::::::::
     # :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     # Change! Find passkey here -> https://filelist.io/my.php
-    username ="YOUR_USERNAME_HERE"
-    passkey = "YOUR_PASSKEY_HERE"
+    username = "YOUR_USERNAME_HERE"
+    passkey  = "YOUR_PASSKEY_HERE"
     # :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     # :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
     # DO NOT TOUCH
@@ -57,9 +57,9 @@ class filelist(object):
 		'games':	  '10,9',
 		'movies':	  '25,6,26,20,2,3,4,19,1',
 		'music':	  '5,11',
-		'software':	'17,22,8',		
-		'tv':		    '27,21,23,13,15',
-    'anime':    '24'
+		'software':	  '17,22,8',		
+		'tv':             '27,21,23,13,15',
+    		'anime':	  '24'
 	}
     
     @staticmethod
