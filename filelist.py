@@ -84,6 +84,6 @@ class filelist(object):
                 'seeds': item['seeders'],
                 'leech': item['leechers'],
                 'engine_url': self.url,
-                'desc_link': f"https://filelist.io/download.php?id={item['id']}"
+                'desc_link': f"https://filelist.io/details.php?id={item['id']}"
             }
             prettyPrinter(result)
