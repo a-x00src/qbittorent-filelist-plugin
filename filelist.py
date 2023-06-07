@@ -73,7 +73,7 @@ class filelist(object):
         imdb_check = self.validate_imdb(what)
         query_type = "name" if imdb_check is None else "imdb"
         search_query = imdb_check or what
-        url = f"http://filelist.io/api.php?username={self.username}&passkey={self.passkey}&action=search-torrents&query={search_query}&category={category}&type={query_type}"
+        url = f"https://filelist.io/api.php?username={self.username}&passkey={self.passkey}&action=search-torrents&query={search_query}&category={category}&type={query_type}"
         response = retrieve_url(url)
         data = json.loads(response)
         for item in data:
