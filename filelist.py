@@ -86,4 +86,8 @@ class filelist(object):
                 'engine_url': self.url,
                 'desc_link': f"https://filelist.io/details.php?id={item['id']}"
             }
+            if 'freeleech' in item and item['freeleech'] == 1:
+                result['name'] += ' [Freeleech]'
+            if 'doubleup' in item and item['doubleup'] == 1:
+                result['name'] += ' [Doubleup]'
             prettyPrinter(result)
